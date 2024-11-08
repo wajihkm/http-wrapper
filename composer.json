@@ -1,5 +1,5 @@
 {
-    "name": "simplify/http-wrapper",
+    "name": "visions/http-wrapper",
     "description": "Wrapper around HTTP Facade in Laravel",
     "type": "library",
     "require": {
