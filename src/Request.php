@@ -1,12 +1,12 @@
 <?php
 
-namespace Simplify\HttpWrapper;
+namespace Directions\HttpWrapper;
 
-use Simplify\HttpWrapper\Enums\BodyType;
-use Simplify\HttpWrapper\Enums\HttpType;
-use Simplify\HttpWrapper\Enums\ResponseType;
-use Simplify\HttpWrapper\Traits\QueryParams;
-use Simplify\HttpWrapper\Traits\UserAgent;
+use Directions\HttpWrapper\Enums\BodyType;
+use Directions\HttpWrapper\Enums\HttpType;
+use Directions\HttpWrapper\Enums\ResponseType;
+use Directions\HttpWrapper\Traits\QueryParams;
+use Directions\HttpWrapper\Traits\UserAgent;
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;

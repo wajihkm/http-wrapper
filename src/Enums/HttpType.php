@@ -1,6 +1,6 @@
 <?php
 
-namespace Simplify\HttpWrapper\Enums;
+namespace Directions\HttpWrapper\Enums;
 
 enum HttpType: string
 {

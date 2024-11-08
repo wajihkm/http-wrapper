@@ -1,6 +1,6 @@
 <?php
 
-namespace Simplify\HttpWrapper\Traits;
+namespace Directions\HttpWrapper\Traits;
 
 trait UserAgent
 {
