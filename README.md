@@ -55,5 +55,37 @@ Make sure to init your values.
 Then call:
 
 ```
-MyRequest->getInstance()->submit();
+MyRequest::getInstance()->submit();
+```
+
+### Add Payload:
+
+```
+class MyRequest extends Request
+{
+    public function getPayload(): array
+    {
+        return [
+            'param_1' => 1,
+            'param_2' => 'value 2',
+        ];
+    }
+}
+```
+
+### Parse the response:
+```
+class MyRequest extends Request
+{
+    public function parse_response(Response $response): mixed
+    {
+        if ($response->successful()) {
+            return $response->object();
+        }
+
+        return null;
+    }
+}
+
+MyRequest::getInstance()->get_response();
 ```
